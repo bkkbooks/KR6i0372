@@ -1,0 +1,152 @@
+canonical_identifier: bkk:krp/KR6i0372/v1
+canonical_location: https://kanripo.org/bkk/KR6i0372/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 盂蘭盆經新疏
+  identifiers:
+    alt_id:
+    - X21n0377
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X21/X21n0377.xml
+    old_id: X21n0377
+  edition:
+    short: bkk
+editions:
+- short: 卍續
+  label: 卍續
+  source_xml_id: wit.orig
+- short: X
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0372_000.yaml, hash: 'sha256:a1c36d474f776a5d6d142fbfece2cd892b08c3516cb09646546aca6658df810c'}
+  - {seq: 1, filename: KR6i0372_001.yaml, hash: 'sha256:3220af5c368b878406470e8298e80280182c54d352d58c08e4e241644de1e72f'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6i0372_001.markers.yaml, hash: 'sha256:ba31233a073ffb2ffa97350a18ef8031acdb1ec1ec5756aedd9132116c950346'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0372_X_001-juan-start
+    span:
+    - body
+    - 0
+    - 10014
+  label: 佛說盂蘭盆經新疏
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6i0372_X_001-mulu-1
+    span:
+    - body
+    - 20
+    - 20
+  label: 五重明義
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6i0372_X_001-mulu-2
+    span:
+    - body
+    - 20
+    - 20
+  label: 前文
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6i0372_X_001-mulu-3
+    span:
+    - body
+    - 242
+    - 242
+  label: 初釋名
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6i0372_X_001-mulu-4
+    span:
+    - body
+    - 717
+    - 717
+  label: 二辨體
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6i0372_X_001-mulu-5
+    span:
+    - body
+    - 2337
+    - 2337
+  label: 三明宗
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6i0372_X_001-mulu-6
+    span:
+    - body
+    - 3936
+    - 3936
+  label: 四明用
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6i0372_X_001-mulu-7
+    span:
+    - body
+    - 4071
+    - 4071
+  label: 五判教相
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6i0372_X_001-mulu-8
+    span:
+    - body
+    - 4358
+    - 4358
+  label: 入文為三
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6i0372_X_001-mulu-9
+    span:
+    - body
+    - 4358
+    - 4358
+  label: 初序分
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6i0372_X_001-mulu-10
+    span:
+    - body
+    - 6199
+    - 6199
+  label: 二正宗分
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6i0372_X_001-mulu-11
+    span:
+    - body
+    - 9058
+    - 9058
+  label: 三流通分
+  type: mulu
+  level: 1
+hash: sha256:cc85240b128b44963ce36764ef1c7f338f562655f358403a4ab8757e6544d046
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
